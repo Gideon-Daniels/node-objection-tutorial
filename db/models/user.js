@@ -1,5 +1,5 @@
 const { Model } = require('objection');
-
+// access the user table
 class User extends Model {
     static get tableName() {
             return 'user';
